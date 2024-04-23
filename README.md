@@ -1,5 +1,5 @@
 # RecipeApp1
-Your code is a simple console application written in C# that serves as a Recipe Manager. Let's break down each part of the code in detail:
+LINE BY LINE EXPLANATION OF MY CODE 
 
 1. **Welcome Message**:
 
@@ -34,7 +34,7 @@ Your code is a simple console application written in C# that serves as a Recipe 
        Console.WriteLine($"Enter unit of measurement for {ingredients[i]}:");
        units[i] = Console.ReadLine();
    }
-   ```
+ 
    This loop iterates over each ingredient, prompting the user to input its name, quantity, and unit of measurement. The inputs are then stored in the respective arrays.
 
 4. **Inputting Steps**:
@@ -72,14 +72,14 @@ Your code is a simple console application written in C# that serves as a Recipe 
    {
        Console.WriteLine($"{i + 1}. {steps[i]}");
    }
-   ```
+  
    After collecting all the details, the program displays the full recipe, including ingredients and steps, in a neat format.
 
 6. **Scaling the Recipe**:
  
    Console.WriteLine("\nEnter scaling factor (0.5, 2, or 3):");
    double scaleFactor = Convert.ToDouble(Console.ReadLine());
-   ```
+
    The user is prompted to enter a scaling factor to scale the recipe up or down.
 
   
